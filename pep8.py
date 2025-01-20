@@ -28,7 +28,7 @@ numero = 4
 
 numero_impare = 5
 
-[3] - Utilize 4 espaços para identação!
+[3] - Utilize 4 espaços para identação! (Não use tab)
 
 if 'a' in 'bananas':
     print('tem')
@@ -97,11 +97,7 @@ x = 1
 y = 1
 variavel_longa = 5
 
+[7] - Termine sempre uma instrução com uma nova linha
+
 """
-
-
-
-
-
-
-
+import this
