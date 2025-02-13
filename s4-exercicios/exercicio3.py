@@ -6,4 +6,4 @@ numero: int = int(input("Informe o número: "))
 if numero % 2 == 0:
     print(f"O número informado é par ({numero})")
 else:
-    print(f"O número informado é impar ({numero})")
+    print(f"O número informado é ímpar ({numero})")

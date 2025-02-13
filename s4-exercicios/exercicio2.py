@@ -4,10 +4,11 @@ a raiz quadrada do número e apresente-a. Se o número for negativo, mostre uma 
 número é inválido.
 """
 
+from math import sqrt
+
 numero: int = int(input("Digite o número: "))
 
 if numero >= 0:
-    raizQuadrada = numero * numero
-    print(f"A raiz quadrada do número ({numero}) é {raizQuadrada}")
+    print(f"A raiz quadrada do número ({numero}) é {sqrt(numero)}")
 else:
     print(" O número fornecido é inválido.")
